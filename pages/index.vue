@@ -3,3 +3,7 @@
         
     </VCalendar>
 </template>
+
+<script lang="ts">
+
+</script>

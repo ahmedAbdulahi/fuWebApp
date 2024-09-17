@@ -13,6 +13,6 @@ interface CalendarData {
 import rawData from "../assets/CalendarTestEntries.json";
 const data: CalendarData = rawData as CalendarData;
 
-function getCalendarData(): CalendarEntry[] {
+export function getCalendarData(): CalendarEntry[] {
     return data.entries;
 }

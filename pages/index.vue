@@ -1,11 +1,20 @@
 <template>
     <v-sheet>
+      <v-select
+        v-model="type"
+        :items="types"
+        class="ma-2"
+        label="View Mode"
+        variant="outlined"
+        dense
+        hide-details
+      ></v-select>
        <v-calendar
        ref="calendar"
-       v-model="value"
-       :events="events"
-       :view_mode="type"
-       :weekdays="weekday"
+        v-model="value"
+        :events="events"
+        :view-mode="type"
+        :weekdays="weekday"
        >
        
        <template #event="{ event }">
@@ -24,7 +33,7 @@
    import { ref } from 'vue';
    import {getCalendarData} from "../utils/calendarJSONParser"
    const dates = getCalendarData();
-   const type = "day"
+   const type = ref("day")
    const types= ["month", "week", "day"]
    
    console.log(dates);

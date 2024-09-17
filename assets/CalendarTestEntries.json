@@ -1,175 +1,65 @@
 {
-    "entries": {
-        "first": {
-            "startdate": [
-                20,
-                9,
-                2024
-            ],
-            "startTime": [
-                16,
-                0,
-                0
-            ],
-            "endTime": [
-                18,
-                0,
-                0
-            ]
-        },
-        "second": {
-            "startdate": [
-                21,
-                9,
-                2024
-            ],
-            "startTime": [
-                16,
-                0,
-                0
-            ],
-            "endTime": [
-                18,
-                0,
-                0
-            ]
-        },
-        "third": {
-            "startdate": [
-                20,
-                9,
-                2024
-            ],
-            "startTime": [
-                14,
-                0,
-                0
-            ],
-            "endTime": [
-                16,
-                0,
-                0
-            ]
-        },
-        "fourth": {
-            "startdate": [
-                20,
-                9,
-                2024
-            ],
-            "startTime": [
-                15,
-                30,
-                0
-            ],
-            "endTime": [
-                17,
-                0,
-                0
-            ]
-        },
-        "fifth": {
-            "startdate": [
-                22,
-                9,
-                2024
-            ],
-            "startTime": [
-                12,
-                0,
-                0
-            ],
-            "endTime": [
-                14,
-                0,
-                0
-            ]
-        },
-        "sixth": {
-            "startdate": [
-                23,
-                9,
-                2024
-            ],
-            "startTime": [
-                10,
-                0,
-                0
-            ],
-            "endTime": [
-                12,
-                0,
-                0
-            ]
-        },
-        "seventh": {
-            "startdate": [
-                24,
-                9,
-                2024
-            ],
-            "startTime": [
-                9,
-                0,
-                0
-            ],
-            "endTime": [
-                11,
-                0,
-                0
-            ]
-        },
-        "eighth": {
-            "startdate": [
-                25,
-                9,
-                2024
-            ],
-            "startTime": [
-                14,
-                30,
-                0
-            ],
-            "endTime": [
-                16,
-                0,
-                0
-            ]
-        },
-        "ninth": {
-            "startdate": [
-                26,
-                9,
-                2024
-            ],
-            "startTime": [
-                17,
-                0,
-                0
-            ],
-            "endTime": [
-                19,
-                0,
-                0
-            ]
-        },
-        "tenth": {
-            "startdate": [
-                27,
-                9,
-                2024
-            ],
-            "startTime": [
-                13,
-                0,
-                0
-            ],
-            "endTime": [
-                15,
-                0,
-                0
-            ]
-        }
-    }
+    "entries": 
+        [
+            {
+                "eventName": "Meeting",
+                "startdate": [20, 8, 2024],
+                "startTime": [16, 0, 0],
+                "endTime": [18, 0, 0]
+            },
+            {
+                "eventName": "Workshop",
+                "startdate": [21, 8, 2024],
+                "startTime": [16, 0, 0],
+                "endTime": [18, 0, 0]
+            },
+            {
+                "eventName": "Conference",
+                "startdate": [20, 8, 2024],
+                "startTime": [14, 0, 0],
+                "endTime": [16, 0, 0]
+            },
+            {
+                "eventName": "Team Building",
+                "startdate": [20, 8, 2024],
+                "startTime": [15, 30, 0],
+                "endTime": [17, 0, 0]
+            },
+            {
+                "eventName": "Project Review",
+                "startdate": [22, 8, 2024],
+                "startTime": [12, 0, 0],
+                "endTime": [14, 0, 0]
+            },
+            {
+                "eventName": "Client Meeting",
+                "startdate": [23, 8, 2024],
+                "startTime": [10, 0, 0],
+                "endTime": [12, 0, 0]
+            },
+            {
+                "eventName": "Training Session",
+                "startdate": [24, 8, 2024],
+                "startTime": [9, 0, 0],
+                "endTime": [11, 0, 0]
+            },
+            {
+                "eventName": "Networking Event",
+                "startdate": [25, 8, 2024],
+                "startTime": [14, 30, 0],
+                "endTime": [16, 0, 0]
+            },
+            {
+                "eventName": "Seminar",
+                "startdate": [26, 8, 2024],
+                "startTime": [17, 0, 0],
+                "endTime": [19, 0, 0]
+            },
+            {
+                "eventName": "Dinner",
+                "startdate": [27, 8, 2024],
+                "startTime": [13, 0, 0],
+                "endTime": [15, 0, 0]
+            }
+        ]
 }
-

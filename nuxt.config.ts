@@ -13,8 +13,11 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
+    '@nuxt/eslint'
+    
     //...
   ],
+  
   vite: {
     vue: {
       template: {

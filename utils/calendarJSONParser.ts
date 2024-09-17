@@ -1,5 +1,7 @@
 
 
+import rawData from "../assets/CalendarTestEntries.json";
+
 interface CalendarEntry {
     eventName: string;  // New field
     startdate: [number, number, number]; // Year, Month, Day
@@ -9,8 +11,6 @@ interface CalendarEntry {
 interface CalendarData {
     entries: CalendarEntry[];
 }
-
-import rawData from "../assets/CalendarTestEntries.json";
 const data: CalendarData = rawData as CalendarData;
 
 export function getCalendarData(): CalendarEntry[] {
